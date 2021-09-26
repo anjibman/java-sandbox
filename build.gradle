@@ -1,0 +1,27 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.0'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.asgh'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+	testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.11.0'
+	testImplementation group: 'org.powermock', name: 'powermock-api-mockito2', version: '1.7.4'
+	testImplementation group: 'org.powermock', name: 'powermock-core', version: '2.0.9'
+	testImplementation group: 'org.powermock', name: 'powermock-module-junit4', version: '2.0.9'
+}
+
+test {
+	useJUnitPlatform()
+}
