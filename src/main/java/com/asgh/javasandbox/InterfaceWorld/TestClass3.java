@@ -1,5 +1,3 @@
-// Unpublished Work (c) 2021 Deere & Company
-
 package com.asgh.javasandbox.InterfaceWorld;
 
 //Implements both interfaces + with same named default method to avoid compile error

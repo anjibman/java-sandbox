@@ -1,5 +1,3 @@
-// Unpublished Work (c) 2021 Deere & Company
-
 package com.asgh.javasandbox.InterfaceWorld;
 
 public class RunClass {
