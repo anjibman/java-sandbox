@@ -1,5 +1,3 @@
-// Unpublished Work (c) 2021 Deere & Company
-
 package com.asgh.javasandbox.InterfaceWorld;
 
 //Implements with only one default method to show not all default method need to be implemented
